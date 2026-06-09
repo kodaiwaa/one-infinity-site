@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: 本番URL確定後に https://example.com/ を正式ドメインへ差し替え -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/unten-daiko.html</loc></url>
+  <url><loc>https://example.com/karugamotsu.html</loc></url>
+  <url><loc>https://example.com/ryokin.html</loc></url>
+  <url><loc>https://example.com/about.html</loc></url>
+  <url><loc>https://example.com/faq.html</loc></url>
+  <url><loc>https://example.com/contact.html</loc></url>
+</urlset>

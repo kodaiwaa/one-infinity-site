@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: 本番URL確定後にsitemapのURLを差し替え
+Sitemap: https://example.com/sitemap.xml
