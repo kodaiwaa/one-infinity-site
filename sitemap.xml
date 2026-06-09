@@ -6,6 +6,10 @@
   <url><loc>https://example.com/karugamotsu.html</loc></url>
   <url><loc>https://example.com/ryokin.html</loc></url>
   <url><loc>https://example.com/about.html</loc></url>
+  <url><loc>https://example.com/news.html</loc></url>
+  <url><loc>https://example.com/news/summer-driving.html</loc></url>
+  <url><loc>https://example.com/news/june-update.html</loc></url>
+  <url><loc>https://example.com/news/spring-notice.html</loc></url>
   <url><loc>https://example.com/faq.html</loc></url>
   <url><loc>https://example.com/contact.html</loc></url>
 </urlset>
