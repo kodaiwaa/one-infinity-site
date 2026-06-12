@@ -674,3 +674,56 @@ img {
     min-height: 44px;
   }
 }
+
+/* 信頼証明帯・依頼3ステップ（2026-06-12 CODEX提案反映） */
+.proof-bar {
+  background: var(--white, #fff);
+  border-bottom: 1px solid rgba(20, 33, 61, 0.1);
+  padding: 14px 0;
+}
+
+.proof-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #14213d;
+}
+
+.proof-items span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.proof-items span::before {
+  content: "✓";
+  color: #2f9e63;
+  font-weight: 700;
+}
+
+.step-card {
+  text-align: center;
+}
+
+.step-num {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #14213d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.steps-note {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #5a6478;
+}
