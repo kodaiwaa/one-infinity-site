@@ -619,3 +619,8 @@ img {
     width: 100%;
   }
 }
+
+/* 見出しの不自然な折り返しを防ぐ */
+.keep-together {
+  white-space: nowrap;
+}
