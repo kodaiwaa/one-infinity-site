@@ -624,3 +624,53 @@ img {
 .keep-together {
   white-space: nowrap;
 }
+
+/* CV強化: 電話ボタン・ヒーロー注記・スマホ固定CTA圧縮（2026-06-12） */
+.button-tel {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button-tel strong {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.hero-note {
+  margin: 10px 0 14px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.form-note {
+  margin-top: 12px;
+}
+
+@media (max-width: 860px) {
+  /* スマホでは固定CTAを2ボタンだけの薄いバーにする */
+  .fixed-cta .fixed-copy {
+    display: none;
+  }
+
+  .fixed-cta .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .fixed-cta .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fixed-cta .button {
+    width: 100%;
+    min-height: 44px;
+  }
+}
