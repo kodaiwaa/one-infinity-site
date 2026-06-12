@@ -727,3 +727,57 @@ img {
   font-size: 14px;
   color: #5a6478;
 }
+
+/* スマホFV圧縮: 1スクロール以内に3ステップ冒頭まで見せる（CODEX第3弾） */
+@media (max-width: 520px) {
+  .hero,
+  .hero .container {
+    min-height: 0;
+  }
+
+  .hero .container {
+    padding-top: 28px;
+    padding-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    gap: 8px;
+  }
+
+  .button-tel strong {
+    font-size: 18px;
+  }
+
+  .hero-note {
+    margin: 8px 0 10px;
+    font-size: 12px;
+  }
+
+  .badges {
+    margin-top: 10px;
+    gap: 6px;
+  }
+
+  .badge {
+    padding: 5px 9px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 520px) {
+  /* スマホは証明帯に一本化（ヒーロー内バッジと重複するため） */
+  .hero .badges {
+    display: none;
+  }
+}
